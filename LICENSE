@@ -1,0 +1,63 @@
+# License Agreement
+
+## 1. Definitions
+
+- **"Software"** refers to the code, documentation, and other materials included in this repository.
+- **"Individual Use"** refers to the use of the Software by a single person for personal, educational, or non-commercial purposes.
+- **"Small Business"** refers to an entity with fewer than 10 employees.
+- **"Medium Business"** refers to an entity with 10 to 50 employees.
+- **"Enterprise Business"** refers to an entity with more than 50 employees.
+- **"Government Use"** refers to the use of the Software by any governmental agency or institution.
+
+## 2. Grant of License
+
+### 2.1. Free Use for Individuals and Small Businesses
+
+- **Individual Use**: Permission is hereby granted, free of charge, to any person obtaining a copy of this Software and associated documentation files (the "Software"), to use, copy, modify, and distribute copies of the Software, subject to the following conditions:
+  - The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+- **Small Businesses**: Small businesses are granted the same rights as individuals for both non-commercial and commercial purposes, provided they do not have 10 or more employees.
+
+### 2.2. Paid Use for Medium Businesses
+
+- **Medium Businesses**: For commercial use by medium businesses (entities with 10 to 50 employees), a paid license is required. This license can be obtained by becoming a sponsor on [GitHub Sponsors](https://github.com/sponsors/noscrape) with a contribution of at least €5 per month.
+
+### 2.3. Paid Use for Enterprise Businesses and Government Use
+
+- **Enterprise Businesses and Government Use**: For commercial use by enterprise businesses (entities with more than 50 employees) and any governmental agencies or institutions, a paid license is required. This license can be obtained by becoming a sponsor on [GitHub Sponsors](https://github.com/sponsors/noscrape) with a contribution of at least €50 per month.
+
+## 3. Contributions
+
+- Any contributions made to this project are assumed to be under the same license as the Software.
+
+## 4. Warranty Disclaimer
+
+- THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+## 5. Limitation of Liability
+
+- IN NO EVENT WILL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+## 6. Indemnification
+
+- Users of the Software agree to indemnify and hold harmless the authors from any and all claims, liabilities, costs, and expenses, including attorneys' fees, arising in any way from the use of the Software.
+
+## 7. Termination
+
+- This license is effective until terminated. Your rights under this license will terminate automatically without notice from the authors if you fail to comply with any terms of this license. Upon termination, you must destroy all copies of the Software and all of its components.
+
+## 8. Miscellaneous
+
+- This license constitutes the entire agreement between the parties concerning the subject matter hereof and may only be modified by a written amendment signed by both parties.
+
+## 9. Disclaimer
+
+- The use of this Software is at your own risk. The Software is provided "as is", without warranty of any kind. The authors and copyright holders disclaim all warranties, whether express or implied, including without limitation any implied warranties of merchantability, fitness for a particular purpose, and non-infringement. The authors and copyright holders do not warrant that the Software will meet your requirements or that the operation of the Software will be uninterrupted or error-free.
+
+## Obtaining a Commercial License
+
+To obtain a commercial license, please visit the [GitHub Sponsors page](https://github.com/sponsors/noscrape) and select the appropriate sponsorship tier. For any questions or to discuss custom licensing terms, contact [Your Contact Information].
+
+---
+
+This license is designed to promote the use of this Software for personal and non-commercial purposes while ensuring fair compensation for commercial use. Your support through GitHub Sponsors helps maintain and improve the Software.
