@@ -21,6 +21,6 @@ describe("test noscrape", () => {
         expect(obfuscated).toHaveLength(4)
 
         const r = await noscrape.render();
-        expect(r).toHaveLength(4720)
+        expect(r.toString("base64")).toHaveLength(4720)
     })
 })
