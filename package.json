@@ -5,7 +5,7 @@
   "type": "commonjs",
   "repository": {
     "type": "git",
-    "url": "https://github.com/noscrape/noscrape-node"
+    "url": "git+https://github.com/noscrape/noscrape-node.git"
   },
   "keywords": [
     "scraping",
