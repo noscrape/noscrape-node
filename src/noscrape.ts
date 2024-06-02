@@ -1,16 +1,15 @@
 import { getBinaryPath } from "./get_binary_path";
-import { includes, omitBy } from "lodash";
 import { existsSync } from "node:fs";
 import { exec } from "node:child_process";
+import { obfuscateString } from "./obfuscateString";
+
+type ObfuscationTypes = string | number | object;
 
 export class Noscrape {
   private readonly fontPath: string;
   private readonly binaryPath: string;
-  private puaRange = Array.from(
-    { length: 0xf8ff - 0xe000 },
-    (_, i) => 0xe000 + i,
-  );
-  private mapping: Record<string, number> = { a: 57344 };
+
+  private mapping: Record<string, number> = {};
 
   constructor(fontPath: string) {
     this.fontPath = fontPath;
@@ -21,26 +20,23 @@ export class Noscrape {
     }
   }
 
-  public obfuscate(text: string) {
-    const availableChars = omitBy(this.puaRange, (v) =>
-      includes(this.mapping, v),
-    );
-
-    let obfuscated = "";
-
-    for (const c of text) {
-      if (!this.mapping[c]) {
-        const keys = Object.keys(availableChars).map((k) => +k);
-        const randomKeyIndex = Math.floor(Math.random() * keys.length);
-        const randomKey = keys[randomKeyIndex];
-        this.mapping[c] = availableChars[randomKey];
-        delete availableChars[randomKey];
-      }
-
-      obfuscated += String.fromCharCode(this.mapping[c]);
+  public obfuscate(data: string): string;
+  public obfuscate(data: number): number;
+  public obfuscate<T extends object>(data: T): T;
+  public obfuscate(data: ObfuscationTypes): ObfuscationTypes {
+    if (typeof data === "string") {
+      return obfuscateString(data, this.mapping);
     }
 
-    return obfuscated;
+    if (typeof data === "number") {
+      return obfuscateString(`${data}`, this.mapping);
+    }
+
+    const newData: any = {};
+    for (const [key, value] of Object.entries(data)) {
+      newData[key] = this.obfuscate(value);
+    }
+    return newData;
   }
 
   public async render(): Promise<Buffer> {
