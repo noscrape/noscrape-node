@@ -1,5 +1,5 @@
 {
-  "name": "noscrape-node",
+  "name": "@noscrape/noscrape",
   "version": "3.0.0",
   "author": "Bernhard Schönberger",
   "type": "commonjs",
