@@ -1,20 +1,33 @@
 {
   "name": "noscrape-node",
+  "version": "3.0.0",
+  "author": "Bernhard Schönberger",
   "type": "commonjs",
-  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/noscrape/noscrape-node"
+  },
+  "keywords": [
+    "scraping",
+    "noscrape",
+    "crawler",
+    "websecurity",
+    "scrape",
+    "obfuscation",
+    "obfuscate",
+    "defend",
+    "protection"
+  ],
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "jest",
     "demo": "ts-node example/demo.ts"
   },
-  "keywords": [
-    "noscrape",
-    "anti-scrape",
-    "obfuscation"
-  ],
-  "author": "Bernhard Schönberger",
-  "license": "UNLICENSED",
+  "license": "proprietary",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
   "devDependencies": {
     "@jest/globals": "^29.7.0",
     "@types/express": "^4.17.21",
@@ -29,8 +42,5 @@
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5",
     "typescript-eslint": "^7.11.0"
-  },
-  "dependencies": {
-    "lodash": "^4.17.21"
   }
 }
