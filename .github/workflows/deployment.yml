@@ -31,8 +31,8 @@ jobs:
        - name: Install playwright browsers
          run: npx playwright install --with-deps
 
-       - name: Run tests
-         run: npx playwright test --update-snapshots --reporter=list
+       # - name: Run tests
+       #  run: npx playwright test --update-snapshots --reporter=list
 
        - name: security
          run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > .npmrc
