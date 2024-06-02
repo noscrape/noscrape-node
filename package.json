@@ -19,8 +19,8 @@
     "protection"
   ],
   "description": "",
-  "main": "index.js",
   "scripts": {
+    "build": "tsc",
     "test": "jest",
     "demo": "ts-node example/demo.ts"
   },
