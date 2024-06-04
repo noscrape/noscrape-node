@@ -1,6 +1,6 @@
 {
-  "name": "@noscrape/noscrape",
-  "version": "3.0.0",
+  "name": "noscrape",
+  "version": "1.0.0",
   "author": "Bernhard Schönberger",
   "type": "commonjs",
   "repository": {
