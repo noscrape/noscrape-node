@@ -28,8 +28,8 @@ jobs:
        - name: build
          run: npm run build
 
-       - name: Install playwright browsers
-         run: npx playwright install --with-deps
+       #- name: Install playwright browsers
+       #  run: npx playwright install --with-deps
 
        # - name: Run tests
        #  run: npx playwright test --update-snapshots --reporter=list

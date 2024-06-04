@@ -1,6 +1,16 @@
 {
   "name": "noscrape",
-  "version": "1.0.0",
+  "description": "obfuscate your content",
+  "version": "1.0.1",
+  "os": [
+    "darwin",
+    "linux",
+    "windows"
+  ],
+  "cpu": [
+    "!mips",
+    "!ia32"
+  ],
   "author": "Bernhard Schönberger",
   "type": "commonjs",
   "repository": {
@@ -18,7 +28,6 @@
     "defend",
     "protection"
   ],
-  "description": "",
   "scripts": {
     "build": "tsc",
     "test": "jest",

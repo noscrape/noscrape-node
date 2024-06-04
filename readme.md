@@ -1,9 +1,11 @@
-# Noscrape Node
+# Noscrape
+
+The primary mechanism behind noscrape is the utilization of any true-type font. From this, noscrape generates a new version with shuffled unicodes, ensuring that it's impossible to reverse-calculate them. This means that both strings and integers are obfuscated and can only be deciphered using the generated obfuscation-font.
 
 ## Installation
 
 ```shell
-npm install @noscrape/noscrape
+npm install noscrape
 ```
 
 ## New Instance
