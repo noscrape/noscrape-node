@@ -1,7 +1,7 @@
 {
   "name": "noscrape",
   "description": "obfuscate your content",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "os": [
     "darwin",
     "linux",
@@ -13,6 +13,7 @@
   ],
   "author": "Bernhard Schönberger",
   "type": "commonjs",
+  "main": "dist/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/noscrape/noscrape-node.git"

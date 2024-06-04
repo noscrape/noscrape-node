@@ -3,14 +3,22 @@
     "target": "es2018",
     "module": "commonjs",
     "sourceMap": true,
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist",
     "strict": true,
-    "skipLibCheck": true
+    "noImplicitAny": false,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "declaration": true,
+    "declarationMap": true
   },
   "exclude": [
+    "playwright*",
     "node_modules",
+    "example",
     "tests",
-    "bin"
+    "test"
   ]
 }
